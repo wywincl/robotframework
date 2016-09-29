@@ -1,4 +1,4 @@
-# robotfamework
+# robotframework
 robot framework in docker.
 
 [![](https://images.microbadger.com/badges/image/wywincl/robotframework.svg)](http://microbadger.com/images/wywincl/robotframework "Get your own image badge on microbadger.com")
