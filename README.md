@@ -6,7 +6,7 @@ robot framework in docker.
 # how to use this iamges
 
 ```
-docker run -it --rm -v /path/robot-content:/etc/robot wywincl/docker-robotframework [options] data_sources
+docker run -it --rm -v /path/robot-content:/etc/robot wywincl/robotframework [options] data_sources
 ```
 
 # for help
