@@ -9,6 +9,7 @@ RUN pip install -U robotframework
 RUN pip install -U robotframework-selenium2library
 RUN pip install -U requests
 RUN pip install -U robotframework-requests
+RUN pip install -U requests_toolbelt
 RUN pip install -U robotframework-pabot
 
 #============
