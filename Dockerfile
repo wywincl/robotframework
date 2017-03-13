@@ -11,6 +11,7 @@ RUN pip install -U requests
 RUN pip install -U robotframework-requests
 RUN pip install -U requests_toolbelt
 RUN pip install -U robotframework-pabot
+RUN pip install -U jsonschema
 
 #============
 # workspace
