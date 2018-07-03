@@ -1,4 +1,4 @@
-FROM python:2.7.14
+FROM python:3.6.6
 
 MAINTAINER john.wang <wywincl@126.com>
 
