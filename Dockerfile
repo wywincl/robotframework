@@ -1,4 +1,4 @@
-FROM python:2.7.12
+FROM python:2.7.14
 
 MAINTAINER john.wang <wywincl@126.com>
 
@@ -7,11 +7,14 @@ MAINTAINER john.wang <wywincl@126.com>
 #=========================================
 RUN pip install -U robotframework
 RUN pip install -U robotframework-selenium2library
+RUN pip install -U robotframework-seleniumlibrary
 RUN pip install -U requests
 RUN pip install -U robotframework-requests
 RUN pip install -U requests_toolbelt
 RUN pip install -U robotframework-pabot
 RUN pip install -U jsonschema
+RUN pip install -U robotframework-lint
+RUN pip install -U pyyaml
 
 #============
 # workspace
