@@ -8,6 +8,7 @@ MAINTAINER john.wang <wywincl@126.com>
 RUN pip install -U robotframework
 RUN pip install -U robotframework-selenium2library
 RUN pip install -U robotframework-seleniumlibrary
+RUN pip install --upgrade RESTinstance
 RUN pip install -U requests
 RUN pip install -U robotframework-requests
 RUN pip install -U requests_toolbelt
